@@ -100,3 +100,13 @@ def factorial(no):
 num = 5
 result = factorial(num)
 print(f"Factorial of {num} is {result}")
+
+# Question No 6
+
+file = open("example.text", "w")
+
+try:
+    file.write("Hello World")
+
+finally:
+    file.close()
